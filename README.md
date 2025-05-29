@@ -86,8 +86,6 @@ shutters/
 - **permission_handler**: For managing app permissions
 - **image_gallery_saver_plus**: For saving processed images to gallery
 
-Note: Removed `file_picker` dependency as it was causing platform implementation issues on Linux.
-
 ## Permissions
 
 ### Android
@@ -96,9 +94,6 @@ The app requires the following permissions:
 - `READ_EXTERNAL_STORAGE`: To read images from storage
 - `WRITE_EXTERNAL_STORAGE`: To save processed images
 - `READ_MEDIA_IMAGES`: For Android 13+ media access
-
-### Linux
-Linux version uses file picker for image selection and saves to Documents folder.
 
 ## Usage
 
